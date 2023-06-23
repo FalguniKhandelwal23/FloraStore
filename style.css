@@ -19,6 +19,7 @@ header{
     justify-content:flex-start;
     align-items: center;
     z-index: 100;
+
 }
 .logo{
     font-size: 2em;
@@ -467,4 +468,239 @@ footer .copyright{
     width: 100%;
     text-align: center;
    
+}
+#shop-page{
+    background-image: url("bannn.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 2em;
+    padding: 14px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2) ;
+}
+#product1 .happyyy{
+    font-size:1.5em;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    color:#35bca1;
+    text-shadow: 3px 3px 10px rgba(0,0,0,.2) ;
+}
+#pagination{
+    text-align: center;
+
+
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #359381;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+#shop-pagee{
+    /* background-image: url("banner4.jpg"); */
+    color: #fff;
+    width: 100%;
+    height: 17vh;
+   
+}
+
+#productdetails .single-pro-image{
+    width: 30%;
+    margin-right: 50px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+#productdetails{
+    display: flex;
+    
+    background-color:#003329;
+}
+#productdetails .single-pro-detail{
+    width: 60%;
+    padding-top: 30px;
+    color:#f9f9f9;
+}
+#productdetails .single-pro-detail h4{
+    padding:0 0 10px 0 ;
+    font-weight: 700;
+
+}
+#productdetails .single-pro-detail h2{
+    
+    font-size: 26px;
+
+}
+#productdetails .single-pro-detail select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-top:10px ;
+}
+#productdetails .single-pro-detail button{
+    padding: 4px 40px 4px 40px;
+    font-size: large;
+    font-weight: 600;
+    background-color: #359381;
+    margin-bottom: 10px;
+}
+#productdetails .single-pro-detail h3{
+    
+    
+    padding-bottom: 1%;
+}
+#productdetails .single-pro-detail span{
+    
+   line-height: 25px;
+}
+
+#blog{
+    background-color: #003329;
+    padding: 70px 70px 0 70px ;
+}
+#blog .blog-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color:#b3d5cf;
+    padding-bottom: 70px;
+}
+#blog .blog-img{
+    width: 50%;
+    margin-right: 40px;
+
+}
+#blog img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+#blog .blog-details{
+    width: 50%;
+  }
+#blog .blog-details a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #b3d5cf;
+    font-weight: 700;
+    
+}
+#blog .blog-details a:hover {
+    color: #fff;}
+#blog .blog-details h4{
+    padding-bottom: 6%;
+    font-weight: 900;
+    font-size: larger;
+
+}
+#blog .blog-details p{
+    padding-bottom: 1%;
+    font-weight: 300;}
+#contact-details{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: #cee1de;
+}
+#contact-details .details span  
+{
+    font-size:15px;
+    
+    
+}
+#contact-details .details h2,
+#form-details form{
+    font-size:26px;
+    line-height: 36px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+#contact-details .details{
+    width: 40%;
+}
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding:10px 0  ;
+}
+
+#contact-details .details li i{
+   font-size: 17px;
+   padding-right: 22px;
+}
+
+#contact-details .details li p{
+   font-size:17px ;
+   margin: 0;
+}
+
+#contact-details .map{
+ width: 55%;
+ height: 400px;
+}
+#contact-details .map iframe{
+    width: 100%;
+   height: 100%;
+    
+}
+#form-details form
+{
+width:65% ;
+display:flex;
+flex-direction: column;
+align-items: flex-start;
+}
+   
+#form-details{
+    color: #c3ded9;
+    padding: 40px; 
+    border: 10px solid #84b1a8;
+  
+    justify-content: space-between;
+    
+}
+#form-details form input,
+#form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+#form-details h2{
+    padding-bottom: 20px;
+}
+#form-details span{
+    font-size: smaller;
+}
+#form-details button{
+background-color: #ffffff;
+    color: #091715;
+    white-space: nowrap;
+    font-size: 13px;
+    font-weight: 900;
+    padding: 11px 18px ;
+    cursor: pointer;
+    
+    outline: none;
+    transition: 0.2s;
+    height: 2.125rem;
+    padding: 0 0.1em;
+    font-size: 14px;
+    width: 20%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius:0 ;}
+#form-details button:hover{
+    color: white;
+    background-color: #003329;
 }
